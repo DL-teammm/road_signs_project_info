@@ -61,10 +61,10 @@
 
 <div class="row" style="display: flex;">
   <div class="column" style="display: flex; padding: 5px;">
-        <img inline src="results.png" alt="Лосс-функция и метрики YOLOv8s-cls" width="500"/>
+        <img inline src="./imgs/results.png" alt="Лосс-функция и метрики YOLOv8s-cls" width="500"/>
   </div>
   <div class="column" style="display: flex; padding: 5px;">
-        <img inline src="confusion_matrix.png" alt="Confusion matrix модели YOLOv8s-cls" width="600"/>
+        <img inline src="./imgs/confusion_matrix.png" alt="Confusion matrix модели YOLOv8s-cls" width="600"/>
   </div>
 </div>
 
