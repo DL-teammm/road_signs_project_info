@@ -51,7 +51,7 @@
 
     <div class="row" style="display: flex;">
       <div class="column" style="display: flex; padding: 5px;">
-            <img inline src="./imgs/1.png" alt="Обучение детекционной модели модели YOLOv8n" width="500"/>
+            <img inline src="./imgs/results_one_class.png" alt="Обучение детекционной модели модели YOLOv8n" width="500"/>
       </div>
     </div>
     
