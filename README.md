@@ -55,22 +55,33 @@
       </div>
     </div>
     
-    2.2. **Классификация:** для обучения использовался модифицированный датасет, состоящий из 20тыс. тренировочных изображений и 5тыс. валидационных. Были обучены три версии модели yolov8 (small, medium, large) в течение 20 эпох.
+    2.2. **Классификация:** для обучения использовался модифицированный датасет, состоящий из 20тыс. тренировочных изображений и 5тыс. валидационных. Были обучены три версии модели yolov8 (small, medium, large) и resnet18 в течение 20 эпох.
 
     Таблица `Оценка работы моделей`
 
-|    модель   |       датасет      | число параметров | время инференса |           целевая метрика            |
-|-------------|--------------------|------------------|-----------------|--------------------------------------|
-| YOLOv8s-cls | RTSD Dataset (2GB) |     5 112 761    | 0.5ms inference |          top1 = 0.995 top5 = 1       |
-| YOLOv8m-cls | RTSD Dataset (2GB) |    15 804 361    | 0.9ms inference |          top1 = 0.994 top5 = 0.999   |
-| YOLOv8l-cls | RTSD Dataset (2GB) |    36 231 769    | 1.3ms inference |          top1 = 0.994 top5 = 0.999   |
+|    модель   |       датасет      | число параметров | время инференса  |           целевая метрика            |
+|-------------|--------------------|------------------|------------------|--------------------------------------|
+| YOLOv8s-cls | RTSD Dataset (2GB) |     5 112 761    | 0.5ms inference  |          top1 = 0.995 top5 = 1       |
+| YOLOv8m-cls | RTSD Dataset (2GB) |    15 804 361    | 0.9ms inference  |          top1 = 0.994 top5 = 0.999   |
+| YOLOv8l-cls | RTSD Dataset (2GB) |    36 231 769    | 1.3ms inference  |          top1 = 0.994 top5 = 0.999   |
+| ResNet18    | RTSD Dataset (2GB) |    12 825        | 0.16ms inference |          top1 = 0.833 top5 = 0.971     |
 
 <div class="row" style="display: flex;">
   <div class="column" style="display: flex; padding: 5px;">
-        <img inline src="./imgs/results.png" alt="Лосс-функция и метрики YOLOv8s-cls" width="500"/>
+      <div>
+            <img inline src="./imgs/loss_&_metrics_YOLOv8s-cls.png" alt="Лосс-функция и метрики YOLOv8s-cls" width="500">
+            <div style="display: flex; justify-content: center;">
+                  Рис.1 Лосс-функция и метрики YOLOv8s-cls
+            </div>
+      </div>
   </div>
   <div class="column" style="display: flex; padding: 5px;">
-        <img inline src="./imgs/confusion_matrix.png" alt="Confusion matrix модели YOLOv8s-cls" width="600"/>
+      <div>
+            <img inline src="./imgs/confusion_matrix_YOLOv8s-cls.png" alt="Confusion matrix модели YOLOv8s-cls" width="600"/>
+            <div style="display: flex; justify-content: center;">
+                  Рис.2 Confusion matrix модели YOLOv8s-cls
+            </div>
+      </div>
   </div>
 </div>
 
