@@ -96,4 +96,4 @@
 
 ### Демо
 
-Демо с работой веб-сервиса можно посмотреть здесь: [google-drive-folder](https://drive.google.com/drive/folders/12qrrSAiGH0Bxblr4LR2Aez3EQwq6EMQH?usp=sharing).
+Демо с работой веб-сервиса можно посмотреть здесь: [google-drive-folder](https://drive.google.com/drive/folders/12qrrSAiGH0Bxblr4LR2Aez3EQwq6EMQH?usp=sharing). Дополнительные клипы для тестирования лежат в папке: [test_clips_folder](https://drive.google.com/drive/folders/1mpbhMBGREyKdGr7CEBYNXudcmx6FlPgo).
