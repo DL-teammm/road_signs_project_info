@@ -32,7 +32,7 @@
 - [kaggle](https://www.kaggle.com/datasets/watchman/rtsd-dataset),
 - [статья](https://computeroptics.ru/eng/KO/PDF/KO41-ENG%20-17/400221.pdf).
 
-После проведённого нами анализа данного датасета ([eda](https://github.com/Shchetinnikov/Data_Centric_AI_course/blob/main/hw_1/notebooks/eda.ipynb)) были выявлены следующие проблемы:
+После проведённого нами анализа данного датасета ([eda](https://github.com/DL-teammm/road_signs_recognition/blob/main/notebooks/eda.ipynb)) были выявлены следующие проблемы:
 
 - есть много редких классов,
 - наблюдается несбалансированность между разными классами.
